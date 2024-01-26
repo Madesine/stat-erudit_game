@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-color: #ffffff;
+  --background-image-line: #939397;
+  --background-image: #323235;
+}
+
+/*@media (prefers-color-scheme: dark) {*/
+/*  :root {*/
+/*    --foreground-rgb: 255, 255, 255;*/
+/*    --background-start-rgb: 0, 0, 0;*/
+/*    --background-end-rgb: 0, 0, 0;*/
+/*  }*/
+/*}*/
+
+body {
+  color: var(--text-color);
+  background-image: linear-gradient(var(--background-image-line) 1.1px,transparent 1.1px),linear-gradient(to right, var(--background-image-line) 1.1px, var(--background-image) 1.1px);
+  background-size: 68px 68px;
+  background-position: -10rem -10rem;
+  background-blend-mode: difference;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
