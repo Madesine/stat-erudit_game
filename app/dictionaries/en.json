@@ -3,5 +3,11 @@
     "labelPlay": "Play",
     "labelResume": "Resume",
     "labelSettings": "Settings"
+  },
+  "mode": {
+    "labelTimeMode": "Time Mode",
+    "labelTrainingMode": "Training Mode",
+    "labelTimeModeDescription": "",
+    "labelTrainingModeDescription": ""
   }
 }
