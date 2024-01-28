@@ -18,7 +18,9 @@
 
 body {
   color: var(--text-color);
-  background-image: linear-gradient(var(--background-image-line) 1.1px,transparent 1.1px),linear-gradient(to right, var(--background-image-line) 1.1px, var(--background-image) 1.1px);
+  background-image:
+          linear-gradient(var(--background-image-line) 1.1px, transparent 1.1px),
+          linear-gradient(to right, var(--background-image-line) 1.1px, var(--background-image) 1.1px);
   background-size: 68px 68px;
   background-position: -10rem -10rem;
   background-blend-mode: difference;

@@ -3,5 +3,11 @@
     "labelPlay": "Играть",
     "labelResume": "Продолжить",
     "labelSettings": "Настройки"
+  },
+  "mode": {
+    "labelTimeMode": "Time Mode",
+    "labelTrainingMode": "Training Mode",
+    "labelTimeModeDescription": "",
+    "labelTrainingModeDescription": ""
   }
 }
